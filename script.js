@@ -1,0 +1,1 @@
+setInterval(()=>{let h=document.createElement("div");h.textContent="💖";h.style.cssText="position:fixed;left:"+Math.random()*100+"vw;bottom:0;animation:up 8s linear";document.body.appendChild(h);setTimeout(()=>h.remove(),8000)},600);let s=document.createElement("style");s.textContent="@keyframes up{to{transform:translateY(-110vh);opacity:0}}";document.head.appendChild(s);
